@@ -1,0 +1,37 @@
+body{
+    background-color:#24353F;;
+}
+:root{
+    --darkBlueShadow:#17a2b8;
+}
+.boxShadow
+{
+    box-shadow:10px 10px 30px 8px rgba(0,0,0,0.8) ;
+}  h1{
+    color: var(--darkBlueShadow);
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: var(--darkBlueShadow);
+}
+.signUpSubmit .btn{
+    border: 1px solid var(--darkBlueShadow);
+    color: var(--darkBlueShadow);
+}
+.signUpSubmit .btn:hover{
+    background-color: var(--darkBlueShadow);
+    color: white;
+}
+.form-control::placeholder {
+    color: white;
+    opacity: 1; 
+}
+.question a:hover{
+text-decoration: underline !important;
+}
+.home-content p 
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--darkBlueShadow);
+}
